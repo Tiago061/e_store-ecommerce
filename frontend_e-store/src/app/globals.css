@@ -17,6 +17,7 @@
 :root {
   --font-FF-Mark: "FF Mark", sans-serif;
   --font-Inter: "Inter", sans-serif;
+  --bg-input: #F5F5F5; 
 }
 
 @theme inline {
@@ -33,5 +34,8 @@ body{
   }
   .inter{
     font-family: var(--font-Inter);
+  }
+  .input{
+    background-color: var(--bg-input);
   }
 }
