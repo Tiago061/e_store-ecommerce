@@ -14,10 +14,20 @@
   font-style:normal;
 }
 
+@font-face {
+  font-family: 'Inter-thin';
+  src: url('/fonts/inter/static/Inter_24pt-Thin.ttf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  
+  
+}
+
+
 :root {
   --font-FF-Mark: "FF Mark", sans-serif;
   --font-Inter: "Inter", sans-serif;
-  --bg-input: #F5F5F5; 
+  --font-Inter-thin: "Inter-thin", sans-serif;
 }
 
 @theme inline {
@@ -25,6 +35,8 @@
   --color-foreground: var(--foreground);
   --font-ffmark: var(--font-FF-Mark);
   --font-inter: var(--font-Inter);
+ 
+
 }
 
 
@@ -35,7 +47,10 @@ body{
   .inter{
     font-family: var(--font-Inter);
   }
-  .input{
-    background-color: var(--bg-input);
+  .inter-thin{
+    font-family: var(--font-Inter);
+    font-weight: var(--font-Inter-thin);
   }
+  
+
 }

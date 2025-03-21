@@ -14,10 +14,10 @@ export default function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false)
 
     return(
-        <header>
+        <header className="">
             <nav className="flex justify-between items-center py-6 px-8 md:px-32 bg-white drop-shadow-md">
                 <Link href="/">
-                    <img src="/img/logo.svg" alt="logo cyber" className="hover:scale-105 transition-all"/>
+                    <img src="/img/header/logo.svg" alt="logo cyber" className="hover:scale-105 transition-all"/>
                 </Link>
                 
                 <div className="relative hidden md:flex items-center justify-center gap-3 ">
@@ -30,9 +30,9 @@ export default function Header() {
                     <li className="p-3 hover:font-semibold  hover:bg-black hover:text-white rounded-md cursor-pointer font-inter">About</li>
                     <li className="p-3 hover:font-semibold  hover:bg-black hover:text-white rounded-md cursor-pointer font-inter">Contact Us</li>
                     <li className="p-3 hover:font-semibold  hover:bg-black hover:text-white rounded-md cursor-pointer font-inter">Blog</li>
-                    <li><img src="/img/like.svg" alt="favorites" className="cursor-pointer hover:scale-105 transition-all"/></li>
-                    <li><img src="/img/cart.svg" alt="car" className="cursor-pointer hover:scale-105 transition-all"/></li>
-                    <li><img src="/img/profile.svg" alt="profile" className="cursor-pointer hover:scale-105 transition-all"/></li>
+                    <li><img src="/img/header/like.svg" alt="favorites" className="cursor-pointer hover:scale-105 transition-all"/></li>
+                    <li><img src="/img/header/cart.svg" alt="car" className="cursor-pointer hover:scale-105 transition-all"/></li>
+                    <li><img src="/img/header/profile.svg" alt="profile" className="cursor-pointer hover:scale-105 transition-all"/></li>
                 </ul>
 
                 <div className="xl:hidden " >
