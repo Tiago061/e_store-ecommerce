@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+@font-face {
+  font-family: "FF Mark";
+  src: url("/fonts/FontFont.FF.Mark.Pro.Black.Commercial.Font-FONT/fnt-0510/FONT/FontFont_FF.Mark.Pro.Black.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face{
+  font-family: "Inter";
+  src: url("/fonts/inter/Inter-VariableFont_opsx,wght.ttf") format("opentype");
+  font-weight: 500;
+  font-style:normal;
+}
+
+@font-face {
+  font-family: 'Inter-thin';
+  src: url('/fonts/inter/static/Inter_24pt-Thin.ttf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+  
+  
+}
+
+
+:root {
+  --font-FF-Mark: "FF Mark", sans-serif;
+  --font-Inter: "Inter", sans-serif;
+  --font-Inter-thin: "Inter-thin", sans-serif;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-ffmark: var(--font-FF-Mark);
+  --font-inter: var(--font-Inter);
+ 
+
+}
+
+
+body{
+  .ffMark{
+    font-family: var(--font-FF-Mark);
+  }
+  .inter{
+    font-family: var(--font-Inter);
+  }
+  .inter-thin{
+    font-family: var(--font-Inter);
+    font-weight: var(--font-Inter-thin);
+  }
+  
+
+}
