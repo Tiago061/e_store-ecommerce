@@ -10,7 +10,7 @@ export default function CategoryItemProps(props: categorysComponentProps){
     
     return(
         <div>
-            <div className="bg-[#EDEDED] w-40 h-32">
+            <div className="bg-[#EDEDED] w-40 h-32 flex flex-col justify-center items-center rounded-2xl">
             <Image 
                 src={props.icon} 
                 alt={props.title} 
