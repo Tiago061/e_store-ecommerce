@@ -4,7 +4,7 @@ import React from "react";
 
 export interface Product {
     id?: number;
-    img: string;
+    img: string | "";
     name: string;
     price: number
     
