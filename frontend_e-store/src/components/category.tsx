@@ -1,4 +1,4 @@
-import CategoryItemProps from "./props/categoryItemprops";
+import CategoryItemProps from "./ui/categoryItemprops";
 import Image from 'next/image';
 
 export default function Category(){
